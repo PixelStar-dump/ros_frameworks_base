@@ -27,6 +27,30 @@
     <string-array name="config_deviceKeyHandlerClasses" translatable="false">
     </string-array>
 
+<<<<<<< HEAD:core/res/res/values/reloaded_config.xml
+=======
+    <!-- Whether Pixel props is enabled -->
+    <bool name="config_enablePixelProps">true</bool>
+
+    <!-- Build properties from a GMS certified device -->
+    <string-array name="config_certifiedBuildProperties" translatable="false">
+      <!--
+        <item>Build.BRAND</item>
+        <item>Build.MANUFACTURER</item>
+        <item>Build.ID</item>
+        <item>Build.DEVICE</item>
+        <item>Build.PRODUCT</item>
+        <item>Build.MODEL</item>
+        <item>Build.FINGERPRINT</item>
+        <item>Build.TYPE</item>
+        <item>Build.TAGS</item>
+      -->
+    </string-array>
+
+    <!-- Whether to cleanup fingerprints upon connection to the daemon and when user switches -->
+    <bool name="config_cleanupUnusedFingerprints">true</bool>
+
+>>>>>>> 242b3b094ea5 (Squashed Import of PixelPropsUtils):core/res/res/values/pixys_config.xml
     <!-- The list of components which should be automatically disabled for a specific device.
          Note: this MUST not be used to randomly disable components, ask for approval first! -->
     <string-array name="config_deviceDisabledComponents" translatable="false">
@@ -47,5 +71,23 @@
     <string-array name="global_device_configs_override" translatable="false">
     </string-array>
     <string-array name="device_configs_override" translatable="false">
+    </string-array>
+    
+    <!-- Whether Pixel props is enabled -->
+    <bool name="config_enablePixelProps">true</bool>
+
+    <!-- Build properties from a GMS certified device -->
+    <string-array name="config_certifiedBuildProperties" translatable="false">
+      <!--
+        <item>Build.BRAND</item>
+        <item>Build.MANUFACTURER</item>
+        <item>Build.ID</item>
+        <item>Build.DEVICE</item>
+        <item>Build.PRODUCT</item>
+        <item>Build.MODEL</item>
+        <item>Build.FINGERPRINT</item>
+        <item>Build.TYPE</item>
+        <item>Build.TAGS</item>
+      -->
     </string-array>
 </resources>
