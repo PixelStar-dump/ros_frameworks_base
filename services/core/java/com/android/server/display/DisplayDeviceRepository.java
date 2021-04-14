@@ -170,6 +170,7 @@ class DisplayDeviceRepository implements DisplayAdapter.Listener {
                         "handleDisplayDeviceChanged");
             }
             int diff = device.mDebugLastLoggedDeviceInfo.diff(info);
+
             if (DEBUG) {
                 if (diff == DisplayDeviceInfo.DIFF_STATE) {
                     Slog.i(TAG, "Display device changed state: \"" + info.name
