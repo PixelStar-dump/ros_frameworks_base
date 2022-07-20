@@ -12,9 +12,15 @@ import android.view.accessibility.AccessibilityNodeInfo;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.constraintlayout.widget.ConstraintLayout;
+<<<<<<< HEAD
 import com.android.app.animation.Interpolators;
 import com.android.launcher3.icons.GraphicsUtils;
 import com.android.systemui.bcsmartspace.R;
+=======
+import com.android.launcher3.icons.GraphicsUtils;
+import com.android.systemui.bcsmartspace.R;
+import com.android.app.animation.Interpolators;
+>>>>>>> f38a8ef0fde8 (SystemUI: Implement Reverse-engineered Smartspace)
 import com.android.systemui.plugins.BcSmartspaceDataPlugin;
 import com.google.android.systemui.smartspace.logging.BcSmartspaceCardLoggingInfo;
 import com.google.android.systemui.smartspace.logging.BcSmartspaceCardMetadataLoggingInfo;

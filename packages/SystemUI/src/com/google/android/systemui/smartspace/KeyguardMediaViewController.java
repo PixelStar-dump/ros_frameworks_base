@@ -153,7 +153,11 @@ public final class KeyguardMediaViewController {
                                     "deviceMedia",
                                     mediaComponent,
                                     UserHandle.of(userTracker.getUserId()))
+<<<<<<< HEAD
                             .setFeatureType(15)
+=======
+                            .setFeatureType(41)
+>>>>>>> f38a8ef0fde8 (SystemUI: Implement Reverse-engineered Smartspace)
                             .setHeaderAction(build)
                             .build();
             BcSmartspaceDataPlugin.SmartspaceView smartspaceView = getSmartspaceView();

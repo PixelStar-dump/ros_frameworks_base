@@ -56,6 +56,7 @@ import com.google.android.systemui.smartspace.KeyguardSmartspaceController;
 
 import dagger.BindsInstance;
 import dagger.Subcomponent;
+import com.google.android.systemui.smartspace.KeyguardSmartspaceController;
 
 import java.util.Map;
 import java.util.Optional;

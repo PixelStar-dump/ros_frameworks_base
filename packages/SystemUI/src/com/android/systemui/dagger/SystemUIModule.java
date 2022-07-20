@@ -42,6 +42,10 @@ import com.android.systemui.biometrics.UdfpsDisplayModeProvider;
 import com.android.systemui.biometrics.dagger.BiometricsModule;
 import com.android.systemui.biometrics.dagger.UdfpsModule;
 import com.android.systemui.broadcast.BroadcastDispatcher;
+<<<<<<< HEAD
+=======
+import com.android.systemui.bouncer.ui.BouncerViewModule;
+>>>>>>> f38a8ef0fde8 (SystemUI: Implement Reverse-engineered Smartspace)
 import com.android.systemui.classifier.FalsingModule;
 import com.android.systemui.clipboardoverlay.dagger.ClipboardOverlayModule;
 import com.android.systemui.common.ui.data.repository.CommonRepositoryModule;
@@ -90,6 +94,7 @@ import com.android.systemui.shared.condition.Monitor;
 import com.android.systemui.smartspace.dagger.SmartspaceModule;
 import com.android.systemui.statusbar.CommandQueue;
 import com.android.systemui.statusbar.NotificationLockscreenUserManager;
+import com.android.systemui.statusbar.NotificationMediaManager;
 import com.android.systemui.statusbar.NotificationShadeWindowController;
 import com.android.systemui.statusbar.connectivity.ConnectivityModule;
 import com.android.systemui.statusbar.events.SystemStatusAnimationScheduler;
