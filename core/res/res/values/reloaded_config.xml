@@ -60,4 +60,8 @@
     </string-array>
     <string-array name="device_configs_override" translatable="false">
     </string-array>
+
+    <!-- Whether to show WiFi/Hotspot standard -->
+    <bool name="config_show_network_standard">false</bool>
+
 </resources>
