@@ -51,4 +51,7 @@
 
     <!-- Whether Pixel props is enabled -->
     <java-symbol type="bool" name="config_enablePixelProps" />
+
+    <!-- Whether device has Google Tensor SoC -->
+    <bool name="config_hasTensorSoC">false</bool>
 </resources>
