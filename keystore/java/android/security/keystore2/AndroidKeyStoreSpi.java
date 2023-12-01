@@ -50,6 +50,7 @@ import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.lang.reflect.Method;
 import java.security.Key;
 import java.security.KeyStore.Entry;
 import java.security.KeyStore.LoadStoreParameter;
@@ -86,6 +87,7 @@ import java.util.List;
 import java.util.NoSuchElementException;
 
 import javax.crypto.SecretKey;
+import java.util.Locale;
 
 import com.android.internal.util.reloaded.AttestationHooks;
 import com.android.internal.util.reloaded.PixelPropsUtils;
