@@ -95,7 +95,8 @@ public class PixelPropsUtils {
                 "com.google.android.apps.privacy.wildlife",
                 "com.google.android.apps.subscriptions.red",
                 "com.google.android.apps.photos",
-		"com.google.android.googlequicksearchbox",
+	            "com.google.android.apps.bard",
+				"com.google.android.googlequicksearchbox",
                 "com.google.android.gms.ui",
                 "com.google.android.gms.learning",
                 "com.google.android.gms.persistent"
