@@ -129,6 +129,8 @@ public class PixelPropsUtils {
             "com.google.android.apps.youtube.kids",
             "com.google.android.apps.youtube.music",
             "com.google.android.as",
+            "com.google.android.backupuses",
+            "com.google.android.backuptransport",
             "com.google.android.dialer",
             "com.google.android.euicc",
             "com.google.android.setupwizard",
